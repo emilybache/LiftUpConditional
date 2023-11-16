@@ -1,0 +1,3 @@
+(test
+ (name liftUpConditional)
+ (libraries alcotest Demo))

@@ -1,0 +1,26 @@
+(lang dune 3.11)
+
+(name liftUpConditional)
+
+(generate_opam_files true)
+
+(source
+ (github pierrickblons/liftUpConditional))
+
+(authors "Pierrick Blons")
+
+(maintainers "Maintainer Name")
+
+(license LICENSE)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name liftUpConditional)
+ (synopsis "Lift Up Conditional demo code")
+ (description "OCaml implementation of the Lift Up conditional demo code for the associated learning hour")
+ (depends ocaml dune alcotest :with-test)
+ (tags
+  (topics "learning hour" your project)))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
